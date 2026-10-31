@@ -20,6 +20,7 @@
           "category": { "type": "string" },
           "type": { "enum": ["app", "mod"] },
           "mobile": { "type": "boolean" },
+          "screenshots": { "type": "array", "items": { "type": "string" }, "description": "adresses des captures (screenshots/1.jpg du dépôt)" },
           "approved": { "type": "boolean", "description": "true si une attestation signée existe pour cette version" }
         }
       }
