@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-10-31T14:26:04.847Z",
+  "updated": "2026-10-31T14:45:33.906Z",
   "topic": "neobase-plugin",
   "plugins": [
     {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.0.0","category":"Outils","type":"app","mobile":true,"approved":true,"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin."},
@@ -13,7 +13,8 @@
     {"id":"neobase.budget","name":"Budget","repo":"NDesumeur/neobase-plugin-budget","version":"1.0.1","category":"Finance","type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Suis tes comptes et tes livrets, ajoute tes opérations et prévois ton épargne."},
     {"id":"neobase.nba","name":"NBA","repo":"NDesumeur/neobase-plugin-nba","version":"1.0.0","category":"Sport","type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Scores et classements NBA de chaque nuit, feuilles de match et fiches joueurs (données ESPN)."},
     {"id":"neobase.transports","name":"Transports","repo":"NDesumeur/neobase-plugin-transports","version":"1.0.0","category":"Voyage","type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Les prochains passages des bus Tadao (Lens-Liévin-Hénin-Carvin), horaires et position des bus en direct."},
-    {"id":"neobase.discord","name":"Discord","repo":"NDesumeur/neobase-plugin-discord","version":"1.0.0","category":"Communication","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Discord dans NeoBase : l'application web officielle, aux couleurs de ton thème, avec les messages non lus sur l'onglet."}
+    {"id":"neobase.discord","name":"Discord","repo":"NDesumeur/neobase-plugin-discord","version":"1.0.0","category":"Communication","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Discord dans NeoBase : l'application web officielle, aux couleurs de ton thème, avec les messages non lus sur l'onglet."},
+    {"id":"neobase.music","name":"NeoMusic","repo":"NDesumeur/neobase-plugin-music","version":"1.0.0","category":"Musique","type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Ton lecteur de musique : playlists en ligne et hors ligne, thèmes, spectre, égaliseur, statistiques, succès et raccourcis globaux."}
   ],
   "revoked": []
 }
