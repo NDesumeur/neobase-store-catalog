@@ -1,12 +1,22 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-10-31T03:00:00Z",
+  "updated": "2026-10-31T03:20:00Z",
   "topic": "neobase-plugin",
   "plugins": [
     {
       "id": "neobase.minuteur",
       "name": "Minuteur",
       "repo": "NDesumeur/neobase-plugin-minuteur",
+      "version": "1.0.0",
+      "category": "Outils",
+      "type": "app",
+      "mobile": true,
+      "approved": true
+    },
+    {
+      "id": "neobase.calculatrice",
+      "name": "Calculatrice",
+      "repo": "NDesumeur/neobase-plugin-calculatrice",
       "version": "1.0.0",
       "category": "Outils",
       "type": "app",
