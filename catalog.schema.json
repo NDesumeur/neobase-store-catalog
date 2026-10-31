@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Catalogue officiel NeoStore",
+  "type": "object",
+  "required": ["catalogVersion", "plugins", "revoked"],
+  "properties": {
+    "catalogVersion": { "type": "integer" },
+    "updated": { "type": "string" },
+    "topic": { "type": "string", "description": "topic GitHub par lequel NeoStore découvre les plugins proposés" },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "repo", "version"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "repo": { "type": "string", "description": "user/repo GitHub" },
+          "version": { "type": "string" },
+          "category": { "type": "string" },
+          "type": { "enum": ["app", "mod"] },
+          "mobile": { "type": "boolean" },
+          "approved": { "type": "boolean", "description": "true si une attestation signée existe pour cette version" }
+        }
+      }
+    },
+    "revoked": {
+      "type": "array",
+      "description": "approbations retirées : NeoBase refuse ces plugins même signés",
+      "items": {
+        "type": "object",
+        "required": ["id", "version", "reason"],
+        "properties": {
+          "id": { "type": "string" },
+          "version": { "type": "string", "description": "version précise, ou * pour toutes" },
+          "reason": { "type": "string" },
+          "date": { "type": "string" }
+        }
+      }
+    }
+  }
+}
