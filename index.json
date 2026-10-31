@@ -1,15 +1,17 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-10-31T04:30:00Z",
+  "updated": "2026-10-31T06:00:00Z",
   "topic": "neobase-plugin",
   "plugins": [
     { "id": "neobase.minuteur", "name": "Minuteur", "repo": "NDesumeur/neobase-plugin-minuteur", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Un minuteur simple : il retient ta dernière durée et te prévient à la fin." },
-    { "id": "neobase.calculatrice", "name": "Calculatrice", "repo": "NDesumeur/neobase-plugin-calculatrice", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Calculatrice scientifique avec fonctions et historique de tes calculs." },
-    { "id": "neobase.unites", "name": "Unités", "repo": "NDesumeur/neobase-plugin-unites", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Convertisseur d'unités : longueurs, masses, températures, monnaies et plus." },
-    { "id": "neobase.hasard", "name": "Hasard", "repo": "NDesumeur/neobase-plugin-hasard", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Roue à choix, dés, pile ou face et tirage de nombre au hasard." },
-    { "id": "neobase.horloge", "name": "Horloge mondiale", "repo": "NDesumeur/neobase-plugin-horloge", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "L'heure dans plusieurs villes, avec un décalage pour comparer les fuseaux." },
-    { "id": "neobase.traducteur", "name": "Traducteur", "repo": "NDesumeur/neobase-plugin-traducteur", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Traduit un texte entre de nombreuses langues, avec détection automatique." },
-    { "id": "neobase.frappe", "name": "Test de frappe", "repo": "NDesumeur/neobase-plugin-frappe", "version": "1.0.0", "category": "Jeux", "type": "app", "mobile": false, "approved": true, "description": "Teste et améliore ta vitesse de frappe au clavier, avec ton historique." }
+    { "id": "neobase.calculatrice", "name": "Calculatrice", "repo": "NDesumeur/neobase-plugin-calculatrice", "version": "1.2.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "permissions": ["full"], "description": "Calculatrice scientifique : opérations, fonctions et historique de tes calculs." },
+    { "id": "neobase.unites", "name": "Unités", "repo": "NDesumeur/neobase-plugin-unites", "version": "1.2.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "permissions": ["full"], "description": "Convertisseur d'unités : longueurs, masses, températures, monnaies et bien d'autres." },
+    { "id": "neobase.traducteur", "name": "Traducteur", "repo": "NDesumeur/neobase-plugin-traducteur", "version": "1.2.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "permissions": ["full"], "description": "Traduit un texte entre de nombreuses langues (service MyMemory, sans compte)." },
+    { "id": "neobase.horloge", "name": "Horloge mondiale", "repo": "NDesumeur/neobase-plugin-horloge", "version": "1.2.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "permissions": ["full"], "description": "L'heure dans plusieurs villes, avec un décalage pour comparer les fuseaux." },
+    { "id": "neobase.hasard", "name": "Hasard", "repo": "NDesumeur/neobase-plugin-hasard", "version": "1.2.0", "category": "Jeux", "type": "app", "mobile": true, "approved": true, "permissions": ["full"], "description": "Une roue avec tes choix, des dés, pile ou face et un tirage de nombre." },
+    { "id": "neobase.frappe", "name": "Test de frappe", "repo": "NDesumeur/neobase-plugin-frappe", "version": "1.2.0", "category": "Jeux", "type": "app", "mobile": false, "approved": true, "permissions": ["full"], "description": "Teste ta vitesse de frappe : modes au temps ou aux mots, ponctuation, historique de tes parties." },
+    { "id": "neobase.budget", "name": "Budget", "repo": "NDesumeur/neobase-plugin-budget", "version": "1.0.0", "category": "Finance", "type": "app", "mobile": true, "approved": true, "permissions": ["full"], "description": "Suis tes comptes et tes livrets, ajoute tes opérations et prévois ton épargne." },
+    { "id": "neobase.nba", "name": "NBA", "repo": "NDesumeur/neobase-plugin-nba", "version": "1.0.0", "category": "Sport", "type": "app", "mobile": true, "approved": true, "permissions": ["full"], "description": "Scores et classements NBA de chaque nuit, feuilles de match et fiches joueurs (données ESPN)." }
   ],
   "revoked": []
 }
