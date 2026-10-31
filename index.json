@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-10-31T20:13:51.247Z",
+  "updated": "2026-10-31T20:22:13.542Z",
   "topic": "neobase-plugin",
   "plugins": [
     {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.0.0","category":"Outils","type":"app","mobile":true,"approved":true,"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin."},
@@ -58,7 +58,7 @@
     {"id":"neobase.terminal","name":"Terminal","repo":"NDesumeur/neobase-plugin-terminal","version":"1.0.1","category":"Système","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"PowerShell dans NeoBase, ligne par ligne, avec historique."},
     {"id":"neobase.systeme","name":"Système","repo":"NDesumeur/neobase-plugin-systeme","version":"1.0.1","category":"Système","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Le processeur, la mémoire, la température, les disques et le réseau de ton PC, en direct sur 5 minutes.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-systeme/main/screenshots/1.jpg"]},
     {"id":"neobase.neome","name":"NeoMe","repo":"NDesumeur/neobase-plugin-neome","version":"1.0.1","category":"Compagnon","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Ton compagnon : il vit sur l'accueil et dans la barre des tâches, a faim, joue, dort, danse sur ta musique et réagit à ce que tu fais.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-neome/main/screenshots/1.png"]},
-    {"id":"neobase.sortiesanime","name":"Sorties anime","repo":"NDesumeur/neobase-plugin-sorties-anime","version":"1.0.0","category":"Anime","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Toutes les sorties d'animes, jour par jour, pas seulement les tiennes : suis ceux que tu veux et ajoute leurs sorties à ton emploi du temps, remises à jour automatiquement.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sorties-anime/main/screenshots/1.jpg"]}
+    {"id":"neobase.sortiesanime","name":"Sorties anime","repo":"NDesumeur/neobase-plugin-sorties-anime","version":"1.0.1","category":"Anime","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Toutes les sorties d'animes, jour par jour, pas seulement les tiennes : suis ceux que tu veux et ajoute leurs sorties à ton emploi du temps, remises à jour automatiquement.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sorties-anime/main/screenshots/1.jpg"]}
   ],
   "revoked": []
 }
