@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-10-31T16:52:01.825Z",
+  "updated": "2026-10-31T17:09:23.332Z",
   "topic": "neobase-plugin",
   "plugins": [
     {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.0.0","category":"Outils","type":"app","mobile":true,"approved":true,"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin."},
@@ -55,7 +55,8 @@
     {"id":"neobase.demarrage","name":"Démarrage","repo":"NDesumeur/neobase-plugin-demarrage","version":"1.0.0","category":"Système","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Les programmes lancés avec Windows, que tu actives ou désactives comme dans le gestionnaire des tâches."},
     {"id":"neobase.meteo","name":"Météo","repo":"NDesumeur/neobase-plugin-meteo","version":"1.0.0","category":"Voyage","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Prévisions sur 10 jours, heure par heure, et qualité de l'air pour ta ville (Open-Meteo)."},
     {"id":"neobase.processus","name":"Processus","repo":"NDesumeur/neobase-plugin-processus","version":"1.0.0","category":"Système","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Les programmes regroupés par nom, avec processeur et mémoire, actualisés toutes les 2 secondes."},
-    {"id":"neobase.terminal","name":"Terminal","repo":"NDesumeur/neobase-plugin-terminal","version":"1.0.0","category":"Système","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"PowerShell dans NeoBase, ligne par ligne, avec historique."}
+    {"id":"neobase.terminal","name":"Terminal","repo":"NDesumeur/neobase-plugin-terminal","version":"1.0.0","category":"Système","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"PowerShell dans NeoBase, ligne par ligne, avec historique."},
+    {"id":"neobase.systeme","name":"Système","repo":"NDesumeur/neobase-plugin-systeme","version":"1.0.0","category":"Système","type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Le processeur, la mémoire, la température, les disques et le réseau de ton PC, en direct sur 5 minutes."}
   ],
   "revoked": []
 }
