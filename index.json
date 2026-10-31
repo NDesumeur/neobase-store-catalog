@@ -1,9 +1,9 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-10-31T22:46:47.170Z",
+  "updated": "2026-10-31T23:06:55.818Z",
   "topic": "neobase-plugin",
   "plugins": [
-    {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.0.0","category":"Outils","type":"app","mobile":true,"approved":true,"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin."},
+    {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.1.0","category":"Outils","type":"app","mobile":true,"approved":true,"permissions":["storage"],"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-minuteur/main/screenshots/1.jpg"]},
     {"id":"neobase.calculatrice","name":"Calculatrice","repo":"NDesumeur/neobase-plugin-calculatrice","version":"1.1.0","category":"Outils","type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Calculatrice scientifique : opérations, fonctions et historique de tes calculs.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-calculatrice/main/screenshots/1.jpg"]},
     {"id":"neobase.unites","name":"Unités","repo":"NDesumeur/neobase-plugin-unites","version":"1.2.1","category":"Outils","type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Convertisseur d'unités : longueurs, masses, températures, monnaies et bien d'autres.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-unites/main/screenshots/1.jpg"]},
     {"id":"neobase.traducteur","name":"Traducteur","repo":"NDesumeur/neobase-plugin-traducteur","version":"1.2.1","category":"Outils","type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Traduit un texte entre de nombreuses langues (service MyMemory, sans compte).","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-traducteur/main/screenshots/1.jpg"]},
