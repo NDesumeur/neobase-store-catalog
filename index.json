@@ -1,15 +1,15 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-10-31T04:00:00Z",
+  "updated": "2026-10-31T04:30:00Z",
   "topic": "neobase-plugin",
   "plugins": [
-    { "id": "neobase.minuteur", "name": "Minuteur", "repo": "NDesumeur/neobase-plugin-minuteur", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true },
-    { "id": "neobase.calculatrice", "name": "Calculatrice", "repo": "NDesumeur/neobase-plugin-calculatrice", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true },
-    { "id": "neobase.unites", "name": "Unités", "repo": "NDesumeur/neobase-plugin-unites", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true },
-    { "id": "neobase.hasard", "name": "Hasard", "repo": "NDesumeur/neobase-plugin-hasard", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true },
-    { "id": "neobase.horloge", "name": "Horloge mondiale", "repo": "NDesumeur/neobase-plugin-horloge", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true },
-    { "id": "neobase.traducteur", "name": "Traducteur", "repo": "NDesumeur/neobase-plugin-traducteur", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true },
-    { "id": "neobase.frappe", "name": "Test de frappe", "repo": "NDesumeur/neobase-plugin-frappe", "version": "1.0.0", "category": "Jeux", "type": "app", "mobile": false, "approved": true }
+    { "id": "neobase.minuteur", "name": "Minuteur", "repo": "NDesumeur/neobase-plugin-minuteur", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Un minuteur simple : il retient ta dernière durée et te prévient à la fin." },
+    { "id": "neobase.calculatrice", "name": "Calculatrice", "repo": "NDesumeur/neobase-plugin-calculatrice", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Calculatrice scientifique avec fonctions et historique de tes calculs." },
+    { "id": "neobase.unites", "name": "Unités", "repo": "NDesumeur/neobase-plugin-unites", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Convertisseur d'unités : longueurs, masses, températures, monnaies et plus." },
+    { "id": "neobase.hasard", "name": "Hasard", "repo": "NDesumeur/neobase-plugin-hasard", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Roue à choix, dés, pile ou face et tirage de nombre au hasard." },
+    { "id": "neobase.horloge", "name": "Horloge mondiale", "repo": "NDesumeur/neobase-plugin-horloge", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "L'heure dans plusieurs villes, avec un décalage pour comparer les fuseaux." },
+    { "id": "neobase.traducteur", "name": "Traducteur", "repo": "NDesumeur/neobase-plugin-traducteur", "version": "1.0.0", "category": "Outils", "type": "app", "mobile": true, "approved": true, "description": "Traduit un texte entre de nombreuses langues, avec détection automatique." },
+    { "id": "neobase.frappe", "name": "Test de frappe", "repo": "NDesumeur/neobase-plugin-frappe", "version": "1.0.0", "category": "Jeux", "type": "app", "mobile": false, "approved": true, "description": "Teste et améliore ta vitesse de frappe au clavier, avec ton historique." }
   ],
   "revoked": []
 }
