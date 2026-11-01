@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-01T03:34:47.521Z",
+  "updated": "2026-11-01T03:35:08.615Z",
   "topic": "neobase-plugin",
   "plugins": [
     {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.1.0","category":"Outils","system":false,"type":"app","mobile":true,"approved":true,"permissions":["storage"],"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-minuteur/main/screenshots/1.jpg"]},
