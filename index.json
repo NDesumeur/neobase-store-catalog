@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-01T01:49:23.557Z",
+  "updated": "2026-11-01T02:08:31.902Z",
   "topic": "neobase-plugin",
   "plugins": [
     {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.1.0","category":"Outils","system":false,"type":"app","mobile":true,"approved":true,"permissions":["storage"],"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-minuteur/main/screenshots/1.jpg"]},
@@ -58,7 +58,7 @@
     {"id":"neobase.neome","name":"NeoMe","repo":"NDesumeur/neobase-plugin-neome","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Ton compagnon : il vit sur l'accueil et dans la barre des tâches, a faim, joue, dort, danse sur ta musique et réagit à ce que tu fais.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-neome/main/screenshots/1.png"]},
     {"id":"neobase.sortiesanime","name":"Sorties anime","repo":"NDesumeur/neobase-plugin-sorties-anime","version":"1.0.2","category":"Anime","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Toutes les sorties d'animes, jour par jour, pas seulement les tiennes : suis ceux que tu veux et ajoute leurs sorties à ton emploi du temps, remises à jour automatiquement.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sorties-anime/main/screenshots/1.jpg"]},
     {"id":"neobase.miseajour","name":"Mise à jour","repo":"NDesumeur/neobase-plugin-miseajour","version":"1.0.0","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"La version de NeoBase, la recherche de mises à jour (téléchargement et redémarrage en un clic) et les plugins à mettre à jour."},
-    {"id":"neobase.lol","name":"Invocateur","repo":"NDesumeur/neobase-plugin-lol","version":"1.1.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full","network"],"description":"Lie ton compte Riot : tes dernières parties de League of Legends, tes statistiques, tes champions, ton classement et des courbes d'évolution."}
+    {"id":"neobase.lol","name":"Invocateur","repo":"NDesumeur/neobase-plugin-lol","version":"1.1.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full","network"],"description":"Lie ton compte Riot : tes dernières parties de League of Legends, tes statistiques, tes champions, ton classement et des courbes d'évolution."}
   ],
   "revoked": [{"id":"neobase.obs","version":"*","reason":"Application retirée de NeoBase"},{"id":"neobase.claudecode","version":"*","reason":"Application retirée de NeoBase"}]
 }
