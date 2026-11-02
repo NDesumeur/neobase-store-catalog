@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-02T01:47:55.512Z",
+  "updated": "2026-11-02T02:13:44.964Z",
   "topic": "neobase-plugin",
   "plugins": [
     {
@@ -418,7 +418,7 @@
       "id": "neobase.rythme",
       "name": "Rythme",
       "repo": "NDesumeur/neobase-plugin-rythme",
-      "version": "1.3.3",
+      "version": "1.4.0",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1067,7 +1067,7 @@
       "id": "neobase.neotha",
       "name": "NeoTha",
       "repo": "NDesumeur/neobase-plugin-neotha",
-      "version": "1.1.3",
+      "version": "1.2.0",
       "category": "Jeux",
       "system": false,
       "type": "app",
