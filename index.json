@@ -1,68 +1,1097 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-01T23:24:33.136Z",
+  "updated": "2026-11-02T01:09:38.120Z",
   "topic": "neobase-plugin",
   "plugins": [
-    {"id":"neobase.minuteur","name":"Minuteur","repo":"NDesumeur/neobase-plugin-minuteur","version":"1.1.0","category":"Outils","system":false,"type":"app","mobile":true,"approved":true,"permissions":["storage"],"description":"Un minuteur simple : il retient ta dernière durée et te prévient à la fin.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-minuteur/main/screenshots/1.jpg"]},
-    {"id":"neobase.calculatrice","name":"Calculatrice","repo":"NDesumeur/neobase-plugin-calculatrice","version":"1.1.0","category":"Outils","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Calculatrice scientifique : opérations, fonctions et historique de tes calculs.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-calculatrice/main/screenshots/1.jpg"]},
-    {"id":"neobase.unites","name":"Unités","repo":"NDesumeur/neobase-plugin-unites","version":"1.2.1","category":"Outils","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Convertisseur d'unités : longueurs, masses, températures, monnaies et bien d'autres.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-unites/main/screenshots/1.jpg"]},
-    {"id":"neobase.traducteur","name":"Traducteur","repo":"NDesumeur/neobase-plugin-traducteur","version":"1.2.1","category":"Outils","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Traduit un texte entre de nombreuses langues (service MyMemory, sans compte).","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-traducteur/main/screenshots/1.jpg"]},
-    {"id":"neobase.horloge","name":"Horloge mondiale","repo":"NDesumeur/neobase-plugin-horloge","version":"1.2.1","category":"Outils","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"L'heure dans plusieurs villes, avec un décalage pour comparer les fuseaux.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-horloge/main/screenshots/1.jpg"]},
-    {"id":"neobase.hasard","name":"Hasard","repo":"NDesumeur/neobase-plugin-hasard","version":"1.2.1","category":"Jeux","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Une roue avec tes choix, des dés, pile ou face et un tirage de nombre.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-hasard/main/screenshots/1.jpg"]},
-    {"id":"neobase.frappe","name":"Test de frappe","repo":"NDesumeur/neobase-plugin-frappe","version":"1.2.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Teste ta vitesse de frappe : modes au temps ou aux mots, ponctuation, historique de tes parties.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-frappe/main/screenshots/1.jpg"]},
-    {"id":"neobase.budget","name":"Budget","repo":"NDesumeur/neobase-plugin-budget","version":"1.1.0","category":"Finance","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Tes comptes, tes dépenses et un plan d'épargne : crée tes comptes avec plafond et intérêts (par an ou par mois) et vois ce que ça donne.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-budget/main/screenshots/1.jpg"]},
-    {"id":"neobase.nba","name":"NBA","repo":"NDesumeur/neobase-plugin-nba","version":"1.1.0","category":"Sport","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Scores et classements NBA de chaque nuit, feuilles de match et fiches joueurs (données ESPN).","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-nba/main/screenshots/1.jpg"]},
-    {"id":"neobase.transports","name":"Transports","repo":"NDesumeur/neobase-plugin-transports","version":"1.1.0","category":"Voyage","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Les prochains passages des bus Tadao (Lens-Liévin-Hénin-Carvin), horaires et position des bus en direct.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-transports/main/screenshots/1.png"]},
-    {"id":"neobase.discord","name":"Discord","repo":"NDesumeur/neobase-plugin-discord","version":"1.0.1","category":"Communication","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Discord dans NeoBase : l'application web officielle, aux couleurs de ton thème, avec les messages non lus sur l'onglet."},
-    {"id":"neobase.music","name":"NeoMusic","repo":"NDesumeur/neobase-plugin-music","version":"1.6.4","category":"Musique","system":false,"type":"app","mobile":true,"approved":true,"permissions":["full"],"description":"Ton lecteur de musique : playlists en ligne et hors ligne, thèmes, spectre, égaliseur, statistiques, succès et raccourcis globaux.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-music/main/screenshots/1.jpg"]},
-    {"id":"neobase.sautstellaire","name":"Saut stellaire","repo":"NDesumeur/neobase-plugin-saut-stellaire","version":"1.2.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Un coureur sans fin : maintiens pour sauter plus haut, évite cristaux et météores, ramasse les étoiles.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-saut-stellaire/main/screenshots/1.jpg"]},
-    {"id":"neobase.memoire","name":"Mémoire","repo":"NDesumeur/neobase-plugin-memoire","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Retrouve les paires de logos NeoBase, de 6 à 18 paires, et bats ton record de coups.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-memoire/main/screenshots/1.jpg"]},
-    {"id":"neobase.cascade","name":"Cascade","repo":"NDesumeur/neobase-plugin-cascade","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Des éclats tombent dans un puits de 10 × 20 : complète des lignes pour les briser.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-cascade/main/screenshots/1.jpg"]},
-    {"id":"neobase.demineur","name":"Démineur","repo":"NDesumeur/neobase-plugin-demineur","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Ouvre toutes les cases sans mine : drapeaux, niveaux, grilles sans hasard.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-demineur/main/screenshots/1.jpg"]},
-    {"id":"neobase.fusionstellaire","name":"Fusion stellaire","repo":"NDesumeur/neobase-plugin-fusion-stellaire","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Fais glisser les tuiles : deux astres identiques fusionnent en un plus grand.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-fusion-stellaire/main/screenshots/1.jpg"]},
-    {"id":"neobase.snuke","name":"Snuke","repo":"NDesumeur/neobase-plugin-snuke","version":"1.1.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Un serpent sur 24 × 24 : classique, sans bords, labyrinthe, mue et chrono.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-snuke/main/screenshots/1.jpg"]},
-    {"id":"neobase.meteores","name":"Météores","repo":"NDesumeur/neobase-plugin-meteores","version":"1.2.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Un shoot them up vertical : météores qui se divisent, vaisseaux ennemis, boss.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-meteores/main/screenshots/1.jpg"]},
-    {"id":"neobase.motdujour","name":"Mot du jour","repo":"NDesumeur/neobase-plugin-mot-du-jour","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Trouve un mot français en 6 essais : la première lettre est donnée, la longueur change chaque jour.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-mot-du-jour/main/screenshots/1.jpg"]},
-    {"id":"neobase.astropole","name":"Astropole","repo":"NDesumeur/neobase-plugin-astropole","version":"1.2.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Une ville spatiale idle : les bâtiments produisent des crédits, même NeoBase fermé.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-astropole/main/screenshots/1.jpg"]},
-    {"id":"neobase.cassebriques","name":"Casse-briques","repo":"NDesumeur/neobase-plugin-casse-briques","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"12 niveaux dessinés puis générés : briques à plusieurs vies, métal, explosives, bonus et capsules.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-casse-briques/main/screenshots/1.jpg"]},
-    {"id":"neobase.defensespatiale","name":"Défense spatiale","repo":"NDesumeur/neobase-plugin-defense-spatiale","version":"1.1.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Construis et améliore 5 types de tourelles le long de la route : 30 vagues, un boss toutes les 10.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-defense-spatiale/main/screenshots/1.jpg"]},
-    {"id":"neobase.rythme","name":"Rythme","repo":"NDesumeur/neobase-plugin-rythme","version":"1.3.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"200 morceaux chiptune composés par le jeu, ou ta propre musique : frappe les notes sur 4 voies, en rythme.","dependencies":{"neobase.music":">=1.3.0"},"screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-rythme/main/screenshots/1.jpg"]},
-    {"id":"neobase.pendu","name":"Pendu","repo":"NDesumeur/neobase-plugin-pendu","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Des mots français par thème, accents ignorés, une potence dessinée pixel par pixel.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-pendu/main/screenshots/1.jpg"]},
-    {"id":"neobase.motsmeles","name":"Mots mêlés","repo":"NDesumeur/neobase-plugin-mots-meles","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Des mots d'un thème cachés dans la grille, dans 2, 4 ou 8 directions : glisse de la première à la dernière lettre.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-mots-meles/main/screenshots/1.jpg"]},
-    {"id":"neobase.sudoku","name":"Sudoku","repo":"NDesumeur/neobase-plugin-sudoku","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Grilles à solution unique en 4 niveaux, notes au crayon, annulation, indices ; la partie en cours est gardée.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sudoku/main/screenshots/1.jpg"]},
-    {"id":"neobase.taquin","name":"Taquin","repo":"NDesumeur/neobase-plugin-taquin","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Remets les tuiles dans l'ordre : chiffres, ciel NeoBase ou ta propre image.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-taquin/main/screenshots/1.jpg"]},
-    {"id":"neobase.echecs","name":"Échecs","repo":"NDesumeur/neobase-plugin-echecs","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Une partie d'échecs contre l'ordinateur, plusieurs niveaux ; la partie en cours est gardée.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-echecs/main/screenshots/1.jpg"]},
-    {"id":"neobase.dames","name":"Dames","repo":"NDesumeur/neobase-plugin-dames","version":"1.0.1","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Des dames internationales (10 × 10) contre l'ordinateur ; la partie en cours est gardée.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-dames/main/screenshots/1.jpg"]},
-    {"id":"neobase.peche","name":"Pêche","repo":"NDesumeur/neobase-plugin-peche","version":"1.1.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Lance ta ligne de lieu en lieu : des dizaines d'espèces dessinées, appâts, cannes, météo et collection.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-peche/main/screenshots/1.jpg"]},
-    {"id":"neobase.aquarium","name":"Aquarium","repo":"NDesumeur/neobase-plugin-aquarium","version":"1.1.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Garde en vie les poissons attrapés à la Pêche : bassins, nourriture, décors et visiteurs qui rapportent des pièces.","dependencies":{"neobase.peche":">=1.0.0"},"screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-aquarium/main/screenshots/1.jpg"]},
-    {"id":"neobase.monodle","name":"MonogatariDle","repo":"NDesumeur/neobase-plugin-monodle","version":"1.2.0","category":"NeoDle","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Devine un personnage de Monogatari : colonnes comparées, indices, emoji et portrait.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-monodle/main/screenshots/1.png"]},
-    {"id":"neobase.apothecarydle","name":"ApothecaryDle","repo":"NDesumeur/neobase-plugin-apothecarydle","version":"1.2.0","category":"NeoDle","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Devine un personnage des Carnets de l'apothicaire : colonnes comparées, indices, emoji et portrait.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-apothecarydle/main/screenshots/1.png"]},
-    {"id":"neobase.blackdle","name":"BlackDle","repo":"NDesumeur/neobase-plugin-blackdle","version":"1.2.0","category":"NeoDle","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Devine un personnage de Black Clover : colonnes comparées, indices, emoji et portrait.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-blackdle/main/screenshots/1.png"]},
-    {"id":"neobase.bleachdle","name":"BleachDle","repo":"NDesumeur/neobase-plugin-bleachdle","version":"1.2.0","category":"NeoDle","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Devine un personnage de Bleach : colonnes comparées, indices, emoji et portrait.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bleachdle/main/screenshots/1.png"]},
-    {"id":"neobase.durararadle","name":"DurararaDle","repo":"NDesumeur/neobase-plugin-durararadle","version":"1.2.0","category":"NeoDle","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Devine un personnage de Durarara!! : colonnes comparées, indices, emoji et portrait.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-durararadle/main/screenshots/1.png"]},
-    {"id":"neobase.docs","name":"NeoDocs","repo":"NDesumeur/neobase-plugin-docs","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Un traitement de texte : styles, polices, listes, tableaux, images, recherche, correcteur FR/EN. Ouvre .docx, .html, .md, .txt ; exporte PDF, Word, HTML, Markdown.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-docs/main/screenshots/1.png"]},
-    {"id":"neobase.sheets","name":"NeoSheets","repo":"NDesumeur/neobase-plugin-sheets","version":"1.1.1","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Un tableur : formules, fonctions, mise en forme, graphiques. Ouvre et enregistre les fichiers Excel.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sheets/main/screenshots/1.png"]},
-    {"id":"neobase.slides","name":"NeoSlides","repo":"NDesumeur/neobase-plugin-slides","version":"1.1.1","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Des présentations : diapositives, objets, thèmes, mode diaporama. Ouvre et enregistre les fichiers PowerPoint.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-slides/main/screenshots/1.png"]},
-    {"id":"neobase.pdf","name":"NeoPDF","repo":"NDesumeur/neobase-plugin-pdf","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Lit tes PDF et les annote : stylo, surligneur, notes, gomme ; enregistre une copie annotée.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-pdf/main/screenshots/1.png"]},
-    {"id":"neobase.outilstexte","name":"Outils texte","repo":"NDesumeur/neobase-plugin-outils-texte","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Compare deux textes, compte les mots et corrige l'orthographe (français et anglais).","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-outils-texte/main/screenshots/1.png"]},
-    {"id":"neobase.couleurs","name":"Couleurs","repo":"NDesumeur/neobase-plugin-couleurs","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Une pipette partout sur l'écran, formats, harmonies, contraste et palettes.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-couleurs/main/screenshots/1.jpg"]},
-    {"id":"neobase.gifstickers","name":"GIF & stickers","repo":"NDesumeur/neobase-plugin-gif-stickers","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Une bibliothèque de GIF animés et d'images à copier en un clic, plus les stickers pixel de NeoBase.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-gif-stickers/main/screenshots/1.png"]},
-    {"id":"neobase.journal","name":"Journal","repo":"NDesumeur/neobase-plugin-journal","version":"1.0.1","category":"Outils","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Une page par jour : ce que tu as vécu, ton humeur de 1 à 5, et tes anciennes pages.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-journal/main/screenshots/1.png"]},
-    {"id":"neobase.paint","name":"Paint","repo":"NDesumeur/neobase-plugin-paint","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Dessine : pinceaux, formes, remplissage, sélection, annulation, enregistrement en image.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-paint/main/screenshots/1.jpg"]},
-    {"id":"neobase.convertir","name":"Convertir","repo":"NDesumeur/neobase-plugin-convertir","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Dépose un fichier : il devient un nouveau fichier dans un autre format, à côté de l'original.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-convertir/main/screenshots/1.jpg"]},
-    {"id":"neobase.demarrage","name":"Démarrage","repo":"NDesumeur/neobase-plugin-demarrage","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Les programmes lancés avec Windows, que tu actives ou désactives comme dans le gestionnaire des tâches."},
-    {"id":"neobase.meteo","name":"Météo","repo":"NDesumeur/neobase-plugin-meteo","version":"1.0.1","category":"Voyage","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Prévisions sur 10 jours, heure par heure, et qualité de l'air pour ta ville (Open-Meteo).","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-meteo/main/screenshots/1.png"]},
-    {"id":"neobase.processus","name":"Processus","repo":"NDesumeur/neobase-plugin-processus","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Les programmes regroupés par nom, avec processeur et mémoire, actualisés toutes les 2 secondes.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-processus/main/screenshots/1.jpg"]},
-    {"id":"neobase.terminal","name":"Terminal","repo":"NDesumeur/neobase-plugin-terminal","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"PowerShell dans NeoBase, ligne par ligne, avec historique."},
-    {"id":"neobase.systeme","name":"Système","repo":"NDesumeur/neobase-plugin-systeme","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Le processeur, la mémoire, la température, les disques et le réseau de ton PC, en direct sur 5 minutes.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-systeme/main/screenshots/1.jpg"]},
-    {"id":"neobase.neome","name":"NeoMe","repo":"NDesumeur/neobase-plugin-neome","version":"1.0.2","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Ton compagnon : il vit sur l'accueil et dans la barre des tâches, a faim, joue, dort, danse sur ta musique et réagit à ce que tu fais.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-neome/main/screenshots/1.png"]},
-    {"id":"neobase.sortiesanime","name":"Sorties anime","repo":"NDesumeur/neobase-plugin-sorties-anime","version":"1.0.2","category":"Anime","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Toutes les sorties d'animes, jour par jour, pas seulement les tiennes : suis ceux que tu veux et ajoute leurs sorties à ton emploi du temps, remises à jour automatiquement.","screenshots":["https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sorties-anime/main/screenshots/1.jpg"]},
-    {"id":"neobase.miseajour","name":"Mise à jour","repo":"NDesumeur/neobase-plugin-miseajour","version":"1.0.0","category":"Système","system":true,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"La version de NeoBase, la recherche de mises à jour (téléchargement et redémarrage en un clic) et les plugins à mettre à jour."},
-    {"id":"neobase.lol","name":"Invocateur","repo":"NDesumeur/neobase-plugin-lol","version":"1.2.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full","network"],"description":"Lis ton compte League of Legends : directement depuis le client ouvert (sans clé Riot) ou avec une clé d'API. Dernières parties, statistiques, champions, classement et courbes."},
-    {"id":"neobase.atelier","name":"Atelier","repo":"NDesumeur/neobase-plugin-atelier","version":"1.0.0","category":"Outils","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"L'IDE de NeoBase : projets, éditeur coloré, aperçu web instantané, console, bac à sable JavaScript, Python, modèles et outils pour créer, tester et valider tes plugins."},
-    {"id":"neobase.bestiaire","name":"Bestiaire","repo":"NDesumeur/neobase-plugin-bestiaire","version":"1.4.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"L'encyclopédie pixel des 1050 créatures de NeoBase (folklore japonais, mythes du monde, livres) : recherche, filtres par type et rareté, fiches détaillées, statistiques, capacités, comparateur et habitats."},
-    {"id":"neobase.cartes","name":"Cartes","repo":"NDesumeur/neobase-plugin-cartes","version":"1.4.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Un jeu de cartes à collectionner : un paquet gratuit par jour, six raretés, doublons à revendre, boutique de paquets, collection et historique d'ouvertures."},
-    {"id":"neobase.catacombes","name":"Catacombes","repo":"NDesumeur/neobase-plugin-catacombes","version":"2.3.0","category":"Jeux","system":false,"type":"app","mobile":false,"approved":true,"permissions":["full"],"description":"Un jeu d'exploration façon Isaac : 6 à 8 étages dans 12 décors qui changent à chaque partie, ennemis et boss tirés de 1050 créatures, près de 500 objets aux effets cumulables, synergies, manette, sauvegarde et statistiques."}
+    {
+      "id": "neobase.minuteur",
+      "name": "Minuteur",
+      "repo": "NDesumeur/neobase-plugin-minuteur",
+      "version": "1.1.0",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Un minuteur simple : il retient ta dernière durée et te prévient à la fin.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-minuteur/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.calculatrice",
+      "name": "Calculatrice",
+      "repo": "NDesumeur/neobase-plugin-calculatrice",
+      "version": "1.1.0",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Calculatrice scientifique : opérations, fonctions et historique de tes calculs.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-calculatrice/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.unites",
+      "name": "Unités",
+      "repo": "NDesumeur/neobase-plugin-unites",
+      "version": "1.2.1",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Convertisseur d'unités : longueurs, masses, températures, monnaies et bien d'autres.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-unites/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.traducteur",
+      "name": "Traducteur",
+      "repo": "NDesumeur/neobase-plugin-traducteur",
+      "version": "1.2.1",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Traduit un texte entre de nombreuses langues (service MyMemory, sans compte).",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-traducteur/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.horloge",
+      "name": "Horloge mondiale",
+      "repo": "NDesumeur/neobase-plugin-horloge",
+      "version": "1.2.1",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "L'heure dans plusieurs villes, avec un décalage pour comparer les fuseaux.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-horloge/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.hasard",
+      "name": "Hasard",
+      "repo": "NDesumeur/neobase-plugin-hasard",
+      "version": "1.2.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Une roue avec tes choix, des dés, pile ou face et un tirage de nombre.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-hasard/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.frappe",
+      "name": "Test de frappe",
+      "repo": "NDesumeur/neobase-plugin-frappe",
+      "version": "1.2.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Teste ta vitesse de frappe : modes au temps ou aux mots, ponctuation, historique de tes parties.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-frappe/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.budget",
+      "name": "Budget",
+      "repo": "NDesumeur/neobase-plugin-budget",
+      "version": "1.1.0",
+      "category": "Finance",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Tes comptes, tes dépenses et un plan d'épargne : crée tes comptes avec plafond et intérêts (par an ou par mois) et vois ce que ça donne.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-budget/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.nba",
+      "name": "NBA",
+      "repo": "NDesumeur/neobase-plugin-nba",
+      "version": "1.1.0",
+      "category": "Sport",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Scores et classements NBA de chaque nuit, feuilles de match et fiches joueurs (données ESPN).",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-nba/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.transports",
+      "name": "Transports",
+      "repo": "NDesumeur/neobase-plugin-transports",
+      "version": "1.1.0",
+      "category": "Voyage",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Les prochains passages des bus Tadao (Lens-Liévin-Hénin-Carvin), horaires et position des bus en direct.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-transports/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.discord",
+      "name": "Discord",
+      "repo": "NDesumeur/neobase-plugin-discord",
+      "version": "1.0.1",
+      "category": "Communication",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Discord dans NeoBase : l'application web officielle, aux couleurs de ton thème, avec les messages non lus sur l'onglet."
+    },
+    {
+      "id": "neobase.music",
+      "name": "NeoMusic",
+      "repo": "NDesumeur/neobase-plugin-music",
+      "version": "1.6.4",
+      "category": "Musique",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Ton lecteur de musique : playlists en ligne et hors ligne, thèmes, spectre, égaliseur, statistiques, succès et raccourcis globaux.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-music/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.sautstellaire",
+      "name": "Saut stellaire",
+      "repo": "NDesumeur/neobase-plugin-saut-stellaire",
+      "version": "1.2.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un coureur sans fin : maintiens pour sauter plus haut, évite cristaux et météores, ramasse les étoiles.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-saut-stellaire/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.memoire",
+      "name": "Mémoire",
+      "repo": "NDesumeur/neobase-plugin-memoire",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Retrouve les paires de logos NeoBase, de 6 à 18 paires, et bats ton record de coups.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-memoire/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.cascade",
+      "name": "Cascade",
+      "repo": "NDesumeur/neobase-plugin-cascade",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Des éclats tombent dans un puits de 10 × 20 : complète des lignes pour les briser.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-cascade/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.demineur",
+      "name": "Démineur",
+      "repo": "NDesumeur/neobase-plugin-demineur",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Ouvre toutes les cases sans mine : drapeaux, niveaux, grilles sans hasard.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-demineur/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.fusionstellaire",
+      "name": "Fusion stellaire",
+      "repo": "NDesumeur/neobase-plugin-fusion-stellaire",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Fais glisser les tuiles : deux astres identiques fusionnent en un plus grand.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-fusion-stellaire/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.snuke",
+      "name": "Snuke",
+      "repo": "NDesumeur/neobase-plugin-snuke",
+      "version": "1.1.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un serpent sur 24 × 24 : classique, sans bords, labyrinthe, mue et chrono.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-snuke/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.meteores",
+      "name": "Météores",
+      "repo": "NDesumeur/neobase-plugin-meteores",
+      "version": "1.2.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un shoot them up vertical : météores qui se divisent, vaisseaux ennemis, boss.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-meteores/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.motdujour",
+      "name": "Mot du jour",
+      "repo": "NDesumeur/neobase-plugin-mot-du-jour",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Trouve un mot français en 6 essais : la première lettre est donnée, la longueur change chaque jour.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-mot-du-jour/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.astropole",
+      "name": "Astropole",
+      "repo": "NDesumeur/neobase-plugin-astropole",
+      "version": "1.2.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Une ville spatiale idle : les bâtiments produisent des crédits, même NeoBase fermé.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-astropole/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.cassebriques",
+      "name": "Casse-briques",
+      "repo": "NDesumeur/neobase-plugin-casse-briques",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "12 niveaux dessinés puis générés : briques à plusieurs vies, métal, explosives, bonus et capsules.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-casse-briques/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.defensespatiale",
+      "name": "Défense spatiale",
+      "repo": "NDesumeur/neobase-plugin-defense-spatiale",
+      "version": "1.1.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Construis et améliore 5 types de tourelles le long de la route : 30 vagues, un boss toutes les 10.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-defense-spatiale/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.rythme",
+      "name": "Rythme",
+      "repo": "NDesumeur/neobase-plugin-rythme",
+      "version": "1.3.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "200 morceaux chiptune composés par le jeu, ou ta propre musique : frappe les notes sur 4 voies, en rythme.",
+      "dependencies": {
+        "neobase.music": ">=1.3.0"
+      },
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-rythme/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.pendu",
+      "name": "Pendu",
+      "repo": "NDesumeur/neobase-plugin-pendu",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Des mots français par thème, accents ignorés, une potence dessinée pixel par pixel.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-pendu/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.motsmeles",
+      "name": "Mots mêlés",
+      "repo": "NDesumeur/neobase-plugin-mots-meles",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Des mots d'un thème cachés dans la grille, dans 2, 4 ou 8 directions : glisse de la première à la dernière lettre.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-mots-meles/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.sudoku",
+      "name": "Sudoku",
+      "repo": "NDesumeur/neobase-plugin-sudoku",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Grilles à solution unique en 4 niveaux, notes au crayon, annulation, indices ; la partie en cours est gardée.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sudoku/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.taquin",
+      "name": "Taquin",
+      "repo": "NDesumeur/neobase-plugin-taquin",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Remets les tuiles dans l'ordre : chiffres, ciel NeoBase ou ta propre image.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-taquin/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.echecs",
+      "name": "Échecs",
+      "repo": "NDesumeur/neobase-plugin-echecs",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Une partie d'échecs contre l'ordinateur, plusieurs niveaux ; la partie en cours est gardée.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-echecs/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.dames",
+      "name": "Dames",
+      "repo": "NDesumeur/neobase-plugin-dames",
+      "version": "1.0.1",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Des dames internationales (10 × 10) contre l'ordinateur ; la partie en cours est gardée.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-dames/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.peche",
+      "name": "Pêche",
+      "repo": "NDesumeur/neobase-plugin-peche",
+      "version": "1.1.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Lance ta ligne de lieu en lieu : des dizaines d'espèces dessinées, appâts, cannes, météo et collection.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-peche/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.aquarium",
+      "name": "Aquarium",
+      "repo": "NDesumeur/neobase-plugin-aquarium",
+      "version": "1.1.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Garde en vie les poissons attrapés à la Pêche : bassins, nourriture, décors et visiteurs qui rapportent des pièces.",
+      "dependencies": {
+        "neobase.peche": ">=1.0.0"
+      },
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-aquarium/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.monodle",
+      "name": "MonogatariDle",
+      "repo": "NDesumeur/neobase-plugin-monodle",
+      "version": "1.2.0",
+      "category": "NeoDle",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Devine un personnage de Monogatari : colonnes comparées, indices, emoji et portrait.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-monodle/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.apothecarydle",
+      "name": "ApothecaryDle",
+      "repo": "NDesumeur/neobase-plugin-apothecarydle",
+      "version": "1.2.0",
+      "category": "NeoDle",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Devine un personnage des Carnets de l'apothicaire : colonnes comparées, indices, emoji et portrait.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-apothecarydle/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.blackdle",
+      "name": "BlackDle",
+      "repo": "NDesumeur/neobase-plugin-blackdle",
+      "version": "1.2.0",
+      "category": "NeoDle",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Devine un personnage de Black Clover : colonnes comparées, indices, emoji et portrait.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-blackdle/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.bleachdle",
+      "name": "BleachDle",
+      "repo": "NDesumeur/neobase-plugin-bleachdle",
+      "version": "1.2.0",
+      "category": "NeoDle",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Devine un personnage de Bleach : colonnes comparées, indices, emoji et portrait.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bleachdle/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.durararadle",
+      "name": "DurararaDle",
+      "repo": "NDesumeur/neobase-plugin-durararadle",
+      "version": "1.2.0",
+      "category": "NeoDle",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Devine un personnage de Durarara!! : colonnes comparées, indices, emoji et portrait.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-durararadle/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.docs",
+      "name": "NeoDocs",
+      "repo": "NDesumeur/neobase-plugin-docs",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un traitement de texte : styles, polices, listes, tableaux, images, recherche, correcteur FR/EN. Ouvre .docx, .html, .md, .txt ; exporte PDF, Word, HTML, Markdown.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-docs/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.sheets",
+      "name": "NeoSheets",
+      "repo": "NDesumeur/neobase-plugin-sheets",
+      "version": "1.1.1",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un tableur : formules, fonctions, mise en forme, graphiques. Ouvre et enregistre les fichiers Excel.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sheets/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.slides",
+      "name": "NeoSlides",
+      "repo": "NDesumeur/neobase-plugin-slides",
+      "version": "1.1.1",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Des présentations : diapositives, objets, thèmes, mode diaporama. Ouvre et enregistre les fichiers PowerPoint.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-slides/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.pdf",
+      "name": "NeoPDF",
+      "repo": "NDesumeur/neobase-plugin-pdf",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Lit tes PDF et les annote : stylo, surligneur, notes, gomme ; enregistre une copie annotée.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-pdf/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.outilstexte",
+      "name": "Outils texte",
+      "repo": "NDesumeur/neobase-plugin-outils-texte",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Compare deux textes, compte les mots et corrige l'orthographe (français et anglais).",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-outils-texte/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.couleurs",
+      "name": "Couleurs",
+      "repo": "NDesumeur/neobase-plugin-couleurs",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Une pipette partout sur l'écran, formats, harmonies, contraste et palettes.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-couleurs/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.gifstickers",
+      "name": "GIF & stickers",
+      "repo": "NDesumeur/neobase-plugin-gif-stickers",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Une bibliothèque de GIF animés et d'images à copier en un clic, plus les stickers pixel de NeoBase.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-gif-stickers/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.journal",
+      "name": "Journal",
+      "repo": "NDesumeur/neobase-plugin-journal",
+      "version": "1.0.1",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Une page par jour : ce que tu as vécu, ton humeur de 1 à 5, et tes anciennes pages.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-journal/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.paint",
+      "name": "Paint",
+      "repo": "NDesumeur/neobase-plugin-paint",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Dessine : pinceaux, formes, remplissage, sélection, annulation, enregistrement en image.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-paint/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.convertir",
+      "name": "Convertir",
+      "repo": "NDesumeur/neobase-plugin-convertir",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Dépose un fichier : il devient un nouveau fichier dans un autre format, à côté de l'original.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-convertir/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.demarrage",
+      "name": "Démarrage",
+      "repo": "NDesumeur/neobase-plugin-demarrage",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Les programmes lancés avec Windows, que tu actives ou désactives comme dans le gestionnaire des tâches."
+    },
+    {
+      "id": "neobase.meteo",
+      "name": "Météo",
+      "repo": "NDesumeur/neobase-plugin-meteo",
+      "version": "1.0.1",
+      "category": "Voyage",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Prévisions sur 10 jours, heure par heure, et qualité de l'air pour ta ville (Open-Meteo).",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-meteo/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.processus",
+      "name": "Processus",
+      "repo": "NDesumeur/neobase-plugin-processus",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Les programmes regroupés par nom, avec processeur et mémoire, actualisés toutes les 2 secondes.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-processus/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.terminal",
+      "name": "Terminal",
+      "repo": "NDesumeur/neobase-plugin-terminal",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "PowerShell dans NeoBase, ligne par ligne, avec historique."
+    },
+    {
+      "id": "neobase.systeme",
+      "name": "Système",
+      "repo": "NDesumeur/neobase-plugin-systeme",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Le processeur, la mémoire, la température, les disques et le réseau de ton PC, en direct sur 5 minutes.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-systeme/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.neome",
+      "name": "NeoMe",
+      "repo": "NDesumeur/neobase-plugin-neome",
+      "version": "1.0.2",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Ton compagnon : il vit sur l'accueil et dans la barre des tâches, a faim, joue, dort, danse sur ta musique et réagit à ce que tu fais.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-neome/main/screenshots/1.png"
+      ]
+    },
+    {
+      "id": "neobase.sortiesanime",
+      "name": "Sorties anime",
+      "repo": "NDesumeur/neobase-plugin-sorties-anime",
+      "version": "1.0.3",
+      "category": "Anime",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Toutes les sorties d'animes, jour par jour, pas seulement les tiennes : suis ceux que tu veux et ajoute leurs sorties à ton emploi du temps, remises à jour automatiquement.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-sorties-anime/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neobase.miseajour",
+      "name": "Mise à jour",
+      "repo": "NDesumeur/neobase-plugin-miseajour",
+      "version": "1.0.0",
+      "category": "Système",
+      "system": true,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "La version de NeoBase, la recherche de mises à jour (téléchargement et redémarrage en un clic) et les plugins à mettre à jour."
+    },
+    {
+      "id": "neobase.lol",
+      "name": "Invocateur",
+      "repo": "NDesumeur/neobase-plugin-lol",
+      "version": "1.2.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full",
+        "network"
+      ],
+      "description": "Lis ton compte League of Legends : directement depuis le client ouvert (sans clé Riot) ou avec une clé d'API. Dernières parties, statistiques, champions, classement et courbes."
+    },
+    {
+      "id": "neobase.atelier",
+      "name": "Atelier",
+      "repo": "NDesumeur/neobase-plugin-atelier",
+      "version": "1.0.0",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "L'IDE de NeoBase : projets, éditeur coloré, aperçu web instantané, console, bac à sable JavaScript, Python, modèles et outils pour créer, tester et valider tes plugins."
+    },
+    {
+      "id": "neobase.bestiaire",
+      "name": "Bestiaire",
+      "repo": "NDesumeur/neobase-plugin-bestiaire",
+      "version": "1.4.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "L'encyclopédie pixel des 1050 créatures de NeoBase (folklore japonais, mythes du monde, livres) : recherche, filtres par type et rareté, fiches détaillées, statistiques, capacités, comparateur et habitats."
+    },
+    {
+      "id": "neobase.cartes",
+      "name": "Cartes",
+      "repo": "NDesumeur/neobase-plugin-cartes",
+      "version": "1.4.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un jeu de cartes à collectionner : un paquet gratuit par jour, six raretés, doublons à revendre, boutique de paquets, collection et historique d'ouvertures."
+    },
+    {
+      "id": "neobase.catacombes",
+      "name": "Catacombes",
+      "repo": "NDesumeur/neobase-plugin-catacombes",
+      "version": "2.3.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un jeu d'exploration façon Isaac : 6 à 8 étages dans 12 décors qui changent à chaque partie, ennemis et boss tirés de 1050 créatures, près de 500 objets aux effets cumulables, synergies, manette, sauvegarde et statistiques."
+    },
+    {
+      "id": "neobase.neotha",
+      "name": "NeoTha",
+      "repo": "NDesumeur/neobase-plugin-neotha",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Un jeu de rythme à la souris : les notes arrivent dans un tunnel sur une grille 3×3, survole-les en rythme. Les 200 morceaux de Rythme, ou n'importe quelle musique de NeoMusic.",
+      "dependencies": {
+        "neobase.music": ">=1.3.0"
+      }
+    }
   ],
-  "revoked": [{"id":"neobase.obs","version":"*","reason":"Application retirée de NeoBase"},{"id":"neobase.claudecode","version":"*","reason":"Application retirée de NeoBase"}]
+  "revoked": [
+    {
+      "id": "neobase.obs",
+      "version": "*",
+      "reason": "Application retirée de NeoBase"
+    },
+    {
+      "id": "neobase.claudecode",
+      "version": "*",
+      "reason": "Application retirée de NeoBase"
+    }
+  ]
 }
