@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-02T02:36:18.526Z",
+  "updated": "2026-11-03T20:27:18.538Z",
   "topic": "neobase-plugin",
   "plugins": [
     {
@@ -1080,6 +1080,27 @@
       "dependencies": {
         "neobase.music": ">=1.3.0"
       }
+    },
+    {
+      "id": "neobase.bestiarystudio",
+      "name": "NeoBestiary Studio",
+      "repo": "NDesumeur/neobase-plugin-bestiarystudio",
+      "version": "1.0.0",
+      "category": "Création",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Décris une créature en français, elle sort en sprite pixel art 64×64 dans les 4 directions avec sa marche, prête pour ton jeu. Dessin par IA en local (ComfyUI, carte NVIDIA 8 Go).",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bestiarystudio/main/screenshots/1.jpg",
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bestiarystudio/main/screenshots/2-directions.png",
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bestiarystudio/main/screenshots/3-spritelab.jpg",
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bestiarystudio/main/screenshots/4-bibliotheque.jpg"
+      ]
     }
   ],
   "revoked": [
