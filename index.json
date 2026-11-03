@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-03T20:31:33.977Z",
+  "updated": "2026-11-03T21:29:48.805Z",
   "topic": "neobase-plugin",
   "plugins": [
     {
@@ -1085,7 +1085,7 @@
       "id": "neobase.bestiarystudio",
       "name": "NeoBestiary Studio",
       "repo": "NDesumeur/neobase-plugin-bestiarystudio",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Création",
       "system": false,
       "type": "app",
