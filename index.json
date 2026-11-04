@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-04T10:40:05.451Z",
+  "updated": "2026-11-04T16:04:01.420Z",
   "topic": "neodex-plugin",
   "plugins": [
     {
@@ -25,7 +25,7 @@
       "id": "neodex.calculatrice",
       "name": "Calculatrice",
       "repo": "NDesumeur/neodex-plugin-calculatrice",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "category": "Outils",
       "system": false,
       "type": "app",
@@ -100,7 +100,7 @@
       "id": "neodex.hasard",
       "name": "Hasard",
       "repo": "NDesumeur/neodex-plugin-hasard",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -212,7 +212,7 @@
       "id": "neodex.music",
       "name": "NeoMusic",
       "repo": "NDesumeur/neodex-plugin-music",
-      "version": "1.7.0",
+      "version": "1.7.1",
       "category": "Musique",
       "system": false,
       "type": "app",
@@ -999,7 +999,7 @@
       "id": "neodex.sortiesanime",
       "name": "Sorties anime",
       "repo": "NDesumeur/neodex-plugin-sorties-anime",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "category": "Anime",
       "system": false,
       "type": "app",
@@ -1009,6 +1009,7 @@
         "storage",
         "agenda",
         "background",
+        "notifications",
         "network:graphql.anilist.co",
         "network:s4.anilist.co"
       ],
@@ -1189,6 +1190,63 @@
       "screenshots": [
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-enigmes/main/screenshots/1.jpg",
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-enigmes/main/screenshots/2.jpg"
+      ]
+    },
+    {
+      "id": "neodex.pressepapiers",
+      "name": "Presse-papiers",
+      "repo": "NDesumeur/neodex-plugin-presse-papiers",
+      "version": "1.0.0",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "system:main",
+        "shortcuts"
+      ],
+      "description": "L'historique de ce que tu copies : recherche, éléments épinglés, un clic pour recopier. Ctrl+Alt+H l'ouvre de n'importe où.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-presse-papiers/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neodex.flux",
+      "name": "Flux",
+      "repo": "NDesumeur/neodex-plugin-flux",
+      "version": "1.0.0",
+      "category": "Internet",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage",
+        "background",
+        "network"
+      ],
+      "description": "Tes flux RSS et tes chaînes YouTube dans l'ordre de parution, sans algorithme ; les nouveautés s'affichent sur l'accueil.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-flux/main/screenshots/1.jpg"
+      ]
+    },
+    {
+      "id": "neodex.reseau",
+      "name": "Réseau",
+      "repo": "NDesumeur/neodex-plugin-reseau",
+      "version": "1.0.0",
+      "category": "Système",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "system:main"
+      ],
+      "description": "Teste ta connexion (box, Internet, DNS, ping LoL EUW) et retrouve les mots de passe des réseaux Wi-Fi enregistrés sur ton PC.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-reseau/main/screenshots/1.jpg"
       ]
     }
   ],
