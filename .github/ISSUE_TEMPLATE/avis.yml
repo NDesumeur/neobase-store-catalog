@@ -1,0 +1,30 @@
+name: Avis sur un plugin
+description: Donne une note et ton avis sur un plugin du NeoStore. Il s'affiche dans NeoBase, sur la fiche du plugin.
+title: "[plugin] "
+labels: ["avis"]
+body:
+  - type: input
+    id: plugin
+    attributes:
+      label: Plugin
+      description: L'identifiant du plugin (rempli tout seul quand tu viens de NeoBase).
+      placeholder: neobase.music
+    validations:
+      required: true
+  - type: dropdown
+    id: note
+    attributes:
+      label: Note
+      options:
+        - "5 ★★★★★"
+        - "4 ★★★★☆"
+        - "3 ★★★☆☆"
+        - "2 ★★☆☆☆"
+        - "1 ★☆☆☆☆"
+    validations:
+      required: true
+  - type: textarea
+    id: avis
+    attributes:
+      label: Avis
+      description: Ce qui te plaît, ce qui manque. Pour un bug, ouvre plutôt une issue sur le dépôt du plugin.
