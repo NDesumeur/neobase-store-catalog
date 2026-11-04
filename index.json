@@ -1101,6 +1101,24 @@
         "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bestiarystudio/main/screenshots/3-spritelab.jpg",
         "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-bestiarystudio/main/screenshots/4-bibliotheque.jpg"
       ]
+    },
+    {
+      "id": "neobase.arene",
+      "name": "NeoBestiary Arène",
+      "repo": "NDesumeur/neobase-plugin-arene",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "full"
+      ],
+      "description": "Les créatures de NeoBestiary Studio s'affrontent au tour par tour dans une arène en pixel art : attaques animées, faiblesses, variantes, duel à deux et palmarès.",
+      "dependencies": {
+        "neobase.bestiarystudio": ">=1.0.7"
+      }
     }
   ],
   "revoked": [
