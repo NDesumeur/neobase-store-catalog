@@ -202,7 +202,7 @@
       "id": "neobase.music",
       "name": "NeoMusic",
       "repo": "NDesumeur/neobase-plugin-music",
-      "version": "1.6.4",
+      "version": "1.6.5",
       "category": "Musique",
       "system": false,
       "type": "app",
