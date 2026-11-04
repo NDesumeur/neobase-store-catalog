@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-03T23:42:19.637Z",
+  "updated": "2026-11-04T08:19:55.540Z",
   "topic": "neobase-plugin",
   "plugins": [
     {
@@ -1119,6 +1119,25 @@
       "dependencies": {
         "neobase.bestiarystudio": ">=1.0.7"
       }
+    },
+    {
+      "id": "neobase.enigmes",
+      "name": "Valcendre",
+      "repo": "NDesumeur/neobase-plugin-enigmes",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "L'horloge aux énigmes : 30 énigmes à résoudre dans trois quartiers pour remettre en marche la grande horloge de Valcendre. Logique, calcul, déduction et énigmes à manipuler, avec des indices.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-enigmes/main/screenshots/1.jpg",
+        "https://raw.githubusercontent.com/NDesumeur/neobase-plugin-enigmes/main/screenshots/2.jpg"
+      ]
     }
   ],
   "revoked": [
