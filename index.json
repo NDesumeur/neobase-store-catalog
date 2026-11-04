@@ -1036,7 +1036,7 @@
     {
       "id": "neobase.cartes",
       "name": "Cartes",
-      "repo": "NDesumeur/neodex-plugin-cartes",
+      "repo": "NDesumeur/neobase-plugin-cartes",
       "version": "1.4.0",
       "category": "Jeux",
       "system": false,
@@ -1051,7 +1051,7 @@
     {
       "id": "neobase.catacombes",
       "name": "Catacombes",
-      "repo": "NDesumeur/neodex-plugin-catacombes",
+      "repo": "NDesumeur/neobase-plugin-catacombes",
       "version": "2.4.0",
       "category": "Jeux",
       "system": false,
