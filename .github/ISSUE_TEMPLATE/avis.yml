@@ -1,5 +1,5 @@
 name: Avis sur un plugin
-description: Donne une note et ton avis sur un plugin du NeoStore. Il s'affiche dans NeoBase, sur la fiche du plugin.
+description: Donne une note et ton avis sur un plugin du NeoStore. Il s'affiche dans NeoDex, sur la fiche du plugin.
 title: "[plugin] "
 labels: ["avis"]
 body:
@@ -7,8 +7,8 @@ body:
     id: plugin
     attributes:
       label: Plugin
-      description: L'identifiant du plugin (rempli tout seul quand tu viens de NeoBase).
-      placeholder: neobase.music
+      description: L'identifiant du plugin (rempli tout seul quand tu viens de NeoDex).
+      placeholder: neodex.music
     validations:
       required: true
   - type: dropdown

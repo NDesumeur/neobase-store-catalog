@@ -1,11 +1,11 @@
 ---
 name: Proposer un plugin
-about: Demander l'approbation officielle d'un plugin NeoBase
+about: Demander l'approbation officielle d'un plugin NeoDex
 title: "Proposer : <nom du plugin>"
 labels: reçue
 ---
 
-**Dépôt du plugin** (public, avec le topic `neobase-plugin`) :
+**Dépôt du plugin** (public, avec le topic `neodex-plugin`) :
 
 **Version à approuver** (la Release doit exister) :
 
@@ -21,4 +21,4 @@ labels: reçue
 
 - [ ] Mes données sont rangées dans `ctx.folder`.
 - [ ] Le code n'est ni obscurci ni chargé depuis Internet.
-- [ ] J'ai lu le [guide de publication](https://github.com/NDesumeur/neobase-sdk/blob/main/docs/PUBLIER.md) et les [critères d'approbation](../../APPROBATION.md).
+- [ ] J'ai lu le [guide de publication](https://github.com/NDesumeur/neodex-sdk/blob/main/docs/PUBLIER.md) et les [critères d'approbation](../../APPROBATION.md).

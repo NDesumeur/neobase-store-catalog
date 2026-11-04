@@ -27,7 +27,7 @@
     },
     "revoked": {
       "type": "array",
-      "description": "approbations retirées : NeoBase refuse ces plugins même signés",
+      "description": "approbations retirées : NeoDex refuse ces plugins même signés",
       "items": {
         "type": "object",
         "required": ["id", "version", "reason"],
