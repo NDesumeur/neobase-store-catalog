@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-05T09:41:57.373811Z",
+  "updated": "2026-11-05T12:14:40.828Z",
   "topic": "neodex-plugin",
   "plugins": [
     {
@@ -212,7 +212,7 @@
       "id": "neodex.music",
       "name": "NeoMusic",
       "repo": "NDesumeur/neodex-plugin-music",
-      "version": "1.7.4",
+      "version": "1.8.0",
       "category": "Musique",
       "system": false,
       "type": "app",
@@ -981,7 +981,7 @@
       "id": "neodex.neome",
       "name": "NeoMe",
       "repo": "NDesumeur/neodex-plugin-neome",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "category": "Compagnon",
       "system": true,
       "type": "app",
@@ -1136,7 +1136,7 @@
       "id": "neodex.bestiarystudio",
       "name": "NeoBestiary Studio",
       "repo": "NDesumeur/neodex-plugin-bestiarystudio",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "category": "Création",
       "system": false,
       "type": "app",
@@ -1158,7 +1158,7 @@
       "id": "neodex.arene",
       "name": "NeoBestiary Arène",
       "repo": "NDesumeur/neodex-plugin-arene",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1298,7 +1298,7 @@
       "id": "neodex.compote",
       "name": "Compote",
       "repo": "NDesumeur/neodex-plugin-compote",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1447,16 +1447,18 @@
       "id": "neodex.studio",
       "name": "Studio de plugins",
       "repo": "NDesumeur/neodex-plugin-studio",
-      "version": "1.0.0",
+      "version": "2.0.0",
       "category": "Outils",
       "system": false,
       "type": "app",
       "mobile": false,
       "approved": true,
       "permissions": [
-        "storage"
+        "storage",
+        "background",
+        "notifications"
       ],
-      "description": "Crée un petit plugin NeoDex sans écrire de code, à partir d'un modèle : jeu de quiz, compteur ou page de liens. Aperçu en direct, et export du plugin complet."
+      "description": "Crée tes petites applis sans code : fiches de révision, routine du jour, minuteur d'étapes, suivi chiffré, tirage au sort, comptes à rebours, quiz… Widget sur l'accueil, rappels, partage par code."
     }
   ],
   "revoked": [
