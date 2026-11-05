@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-05T09:36:01.466Z",
+  "updated": "2026-11-05T09:41:57.373811Z",
   "topic": "neodex-plugin",
   "plugins": [
     {
@@ -1248,6 +1248,215 @@
       "screenshots": [
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-reseau/main/screenshots/1.jpg"
       ]
+    },
+    {
+      "id": "neodex.puissance4",
+      "name": "Puissance 4",
+      "repo": "NDesumeur/neodex-plugin-puissance4",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Aligne 4 jetons avant l'autre : contre l'ordinateur (3 niveaux) ou à deux sur le même écran, en pixel art."
+    },
+    {
+      "id": "neodex.plumo",
+      "name": "Plumo",
+      "repo": "NDesumeur/neodex-plugin-plumo",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Un petit oiseau à faire voler entre les colonnes : un battement à chaque clic. Le ciel change avec ton score, des médailles à gagner."
+    },
+    {
+      "id": "neodex.neonrush",
+      "name": "Néon Rush",
+      "repo": "NDesumeur/neodex-plugin-neonrush",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Course sans fin sur trois voies dans une ville néon : saute les barrières, glisse sous les panneaux, change de voie avant le métro, ramasse les pièces."
+    },
+    {
+      "id": "neodex.compote",
+      "name": "Compote",
+      "repo": "NDesumeur/neodex-plugin-compote",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Lâche des fruits dans la caisse : deux fruits pareils qui se touchent fusionnent en un plus gros. De la cerise à la citrouille, sans dépasser la ligne."
+    },
+    {
+      "id": "neodex.orbite",
+      "name": "Orbite",
+      "repo": "NDesumeur/neodex-plugin-orbite",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Un petit vaisseau tourne autour d'un soleil sur trois orbites. Saute d'une orbite à l'autre pour éviter les astéroïdes, ramasse les cristaux, fuis les éruptions."
+    },
+    {
+      "id": "neodex.lanterne",
+      "name": "Lanterne",
+      "repo": "NDesumeur/neodex-plugin-lanterne",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Une petite voyageuse traverse une grotte sans fin avec sa lanterne. La lumière baisse : ramasse les fioles d'huile, évite la roche et les chauves-souris."
+    },
+    {
+      "id": "neodex.funambule",
+      "name": "Funambule",
+      "repo": "NDesumeur/neodex-plugin-funambule",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Un funambule avance sur un fil tendu très haut au-dessus de la ville. Garde-le en équilibre contre le vent, le plus loin possible."
+    },
+    {
+      "id": "neodex.triexpress",
+      "name": "Tri express",
+      "repo": "NDesumeur/neodex-plugin-triexpress",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Centre de tri : les colis descendent le tapis, envoie chacun dans le bac de sa couleur. Les bacs changent de place, les bombes ne se trient pas."
+    },
+    {
+      "id": "neodex.grattciel",
+      "name": "Gratte-ciel",
+      "repo": "NDesumeur/neodex-plugin-grattciel",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Empile les étages d'un gratte-ciel : chaque étage glisse, lâche-le au bon moment. Ce qui dépasse tombe. Monte jusqu'aux étoiles."
+    },
+    {
+      "id": "neodex.football",
+      "name": "Football",
+      "repo": "NDesumeur/neodex-plugin-football",
+      "version": "1.0.0",
+      "category": "Sport",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "storage",
+        "agenda",
+        "background",
+        "network:site.api.espn.com",
+        "network:a.espncdn.com"
+      ],
+      "description": "Ton équipe de foot comme l'appli NBA : prochain match, forme, résultats et calendrier, les matchs du jour, les classements et les feuilles de match (données ESPN)."
+    },
+    {
+      "id": "neodex.f1",
+      "name": "Formule 1",
+      "repo": "NDesumeur/neodex-plugin-f1",
+      "version": "1.0.0",
+      "category": "Sport",
+      "system": false,
+      "type": "app",
+      "mobile": true,
+      "approved": true,
+      "permissions": [
+        "storage",
+        "agenda",
+        "background",
+        "network:api.jolpi.ca"
+      ],
+      "description": "La saison de F1 : calendrier avec les horaires de chaque séance, compte à rebours, résultats des courses, qualifications et sprints, classements pilotes et écuries."
+    },
+    {
+      "id": "neodex.prixjeux",
+      "name": "Prix des jeux",
+      "repo": "NDesumeur/neodex-plugin-prixjeux",
+      "version": "1.0.0",
+      "category": "Jeux",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage",
+        "notifications",
+        "background",
+        "network:store.steampowered.com",
+        "network:*.steamstatic.com",
+        "network:store-site-backend-static.ak.epicgames.com",
+        "network:*.epicgames.com",
+        "network:cdn2.unrealengine.com"
+      ],
+      "description": "Les jeux gratuits de la semaine sur l'Epic Games Store, les promos Steam du moment en euros, et ta liste de jeux à surveiller avec une alerte quand le prix descend sous ton seuil."
+    },
+    {
+      "id": "neodex.studio",
+      "name": "Studio de plugins",
+      "repo": "NDesumeur/neodex-plugin-studio",
+      "version": "1.0.0",
+      "category": "Outils",
+      "system": false,
+      "type": "app",
+      "mobile": false,
+      "approved": true,
+      "permissions": [
+        "storage"
+      ],
+      "description": "Crée un petit plugin NeoDex sans écrire de code, à partir d'un modèle : jeu de quiz, compteur ou page de liens. Aperçu en direct, et export du plugin complet."
     }
   ],
   "revoked": [
