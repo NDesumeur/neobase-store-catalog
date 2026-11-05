@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-04T23:25:28.592Z",
+  "updated": "2026-11-05T09:36:01.466Z",
   "topic": "neodex-plugin",
   "plugins": [
     {
@@ -981,7 +981,7 @@
       "id": "neodex.neome",
       "name": "NeoMe",
       "repo": "NDesumeur/neodex-plugin-neome",
-      "version": "1.0.3",
+      "version": "1.1.0",
       "category": "Compagnon",
       "system": true,
       "type": "app",
@@ -990,7 +990,7 @@
       "permissions": [
         "full"
       ],
-      "description": "Ton compagnon : il vit sur l'accueil et dans la barre des tâches, a faim, joue, dort, danse sur ta musique et réagit à ce que tu fais.",
+      "description": "Ton compagnon : il vit sur l'accueil et dans la barre des tâches, a faim, joue, dort, danse sur ta musique, monte de niveau et débloque une garde-robe de 30 cosmétiques dessinés sur lui par l'IA (lunettes, écharpes, casques de couleur, coquilles, auras).",
       "screenshots": [
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-neome/main/screenshots/1.png"
       ]
@@ -1136,7 +1136,7 @@
       "id": "neodex.bestiarystudio",
       "name": "NeoBestiary Studio",
       "repo": "NDesumeur/neodex-plugin-bestiarystudio",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "category": "Création",
       "system": false,
       "type": "app",
@@ -1158,7 +1158,7 @@
       "id": "neodex.arene",
       "name": "NeoBestiary Arène",
       "repo": "NDesumeur/neodex-plugin-arene",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1168,7 +1168,7 @@
         "storage",
         "system:main"
       ],
-      "description": "Les créatures de NeoBestiary Studio s'affrontent au tour par tour dans une arène en pixel art : 2 à 4 attaques animées, 204 techniques venues du Studio, 9 statuts (brûlure, poison, gel, paralysie, sommeil, confusion, saignement, éblouissement, peur), crans de statistiques, précision, coups multiples, vol de vie, soins et renforts, faiblesses, variantes, duel à deux et palmarès.",
+      "description": "Les créatures de NeoBestiary Studio s'affrontent au tour par tour dans une arène en pixel art : 2 à 4 attaques animées, 204 techniques venues du Studio, 9 statuts (brûlure, poison, gel, paralysie, sommeil, confusion, saignement, éblouissement, peur), crans de statistiques, précision, coups multiples, vol de vie, soins et renforts, faiblesses, variantes, duel à deux et palmarès ; NeoMe, n° 0, avec ses attaques signature.",
       "dependencies": {
         "neodex.bestiarystudio": ">=1.0.7"
       }
