@@ -234,7 +234,7 @@
       "id": "neodex.music",
       "name": "NeoMusic",
       "repo": "NDesumeur/neodex-plugin-music",
-      "version": "1.9.1",
+      "version": "2.0.0",
       "category": "Musique",
       "system": false,
       "type": "app",
