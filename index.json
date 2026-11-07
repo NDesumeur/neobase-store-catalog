@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-07T13:42:35Z",
+  "updated": "2026-11-07T13:45:30Z",
   "topic": "neodex-plugin",
   "plugins": [
     {
@@ -170,7 +170,7 @@
       "id": "neodex.nba",
       "name": "NBA",
       "repo": "NDesumeur/neodex-plugin-nba",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "category": "Sport",
       "system": false,
       "type": "app",
@@ -182,14 +182,25 @@
         "background",
         "network:a.espncdn.com",
         "network:site.api.espn.com",
-        "network:site.web.api.espn.com"
+        "network:site.web.api.espn.com",
+        "notifications"
       ],
-      "description": "Scores et classements NBA de chaque nuit, feuilles de match et fiches joueurs (données ESPN).",
+      "description": "Scores et classements NBA de chaque nuit, page de chaque équipe (prochains matchs et résultats), feuilles de match, fiches joueurs et notifications des matchs de tes équipes (données ESPN).",
       "screenshots": [
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-nba/main/screenshots/1.jpg"
       ],
       "syncMode": "fusion",
-      "syncInfo": "Équipe favorite, notifications choisies."
+      "syncInfo": "Équipe favorite, notifications choisies.",
+      "notifications": [
+        {
+          "type": "match",
+          "description": "Un match d'une de tes équipes commence dans l'heure."
+        },
+        {
+          "type": "resultat",
+          "description": "Le score final d'un match d'une de tes équipes."
+        }
+      ]
     },
     {
       "id": "neodex.transports",
