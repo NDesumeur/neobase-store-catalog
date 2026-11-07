@@ -1,6 +1,6 @@
 {
   "catalogVersion": 1,
-  "updated": "2026-11-06T21:43:18.000Z",
+  "updated": "2026-11-07T13:42:35Z",
   "topic": "neodex-plugin",
   "plugins": [
     {
@@ -110,7 +110,7 @@
       "id": "neodex.hasard",
       "name": "Hasard",
       "repo": "NDesumeur/neodex-plugin-hasard",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -130,7 +130,7 @@
       "id": "neodex.frappe",
       "name": "Test de frappe",
       "repo": "NDesumeur/neodex-plugin-frappe",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -256,7 +256,7 @@
       "id": "neodex.sautstellaire",
       "name": "Saut stellaire",
       "repo": "NDesumeur/neodex-plugin-saut-stellaire",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -296,7 +296,7 @@
       "id": "neodex.cascade",
       "name": "Cascade",
       "repo": "NDesumeur/neodex-plugin-cascade",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -376,7 +376,7 @@
       "id": "neodex.meteores",
       "name": "Météores",
       "repo": "NDesumeur/neodex-plugin-meteores",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -396,7 +396,7 @@
       "id": "neodex.motdujour",
       "name": "Mot du jour",
       "repo": "NDesumeur/neodex-plugin-mot-du-jour",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -456,7 +456,7 @@
       "id": "neodex.defensespatiale",
       "name": "Défense spatiale",
       "repo": "NDesumeur/neodex-plugin-defense-spatiale",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -476,7 +476,7 @@
       "id": "neodex.rythme",
       "name": "Rythme",
       "repo": "NDesumeur/neodex-plugin-rythme",
-      "version": "1.6.2",
+      "version": "1.6.3",
       "category": "Musique",
       "system": false,
       "type": "app",
@@ -920,7 +920,7 @@
       "id": "neodex.journal",
       "name": "Journal",
       "repo": "NDesumeur/neodex-plugin-journal",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "category": "Outils",
       "system": false,
       "type": "app",
@@ -1167,7 +1167,7 @@
       "id": "neodex.atelier",
       "name": "Atelier",
       "repo": "NDesumeur/neodex-plugin-atelier",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "category": "Outils",
       "system": false,
       "type": "app",
@@ -1230,7 +1230,7 @@
       "id": "neodex.neotha",
       "name": "NeoTha",
       "repo": "NDesumeur/neodex-plugin-neotha",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "category": "Musique",
       "system": false,
       "type": "app",
@@ -1252,7 +1252,7 @@
       "id": "neodex.bestiarystudio",
       "name": "NeoBestiary Studio",
       "repo": "NDesumeur/neodex-plugin-bestiarystudio",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "category": "Création",
       "system": false,
       "type": "app",
@@ -1260,9 +1260,10 @@
       "approved": true,
       "permissions": [
         "storage",
-        "system:main"
+        "system:main",
+        "notifications"
       ],
-      "description": "Décris une créature en français, elle sort en sprite pixel art 64×64 dans les 4 directions avec une marche en 5 images, prête pour ton jeu. Dessin par IA en local (ComfyUI, carte NVIDIA 8 Go).",
+      "description": "Décris une créature en français, elle sort en sprite pixel art 64×64 dans les 4 directions avec une marche en 5 images, prête pour ton jeu. Crée aussi des objets, des attaques animées et des musiques. Tout par IA en local (ComfyUI, carte NVIDIA 8 Go), modèles installés automatiquement.",
       "screenshots": [
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-bestiarystudio/main/screenshots/1.jpg",
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-bestiarystudio/main/screenshots/2-directions.png",
@@ -1270,13 +1271,20 @@
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-bestiarystudio/main/screenshots/4-bibliotheque.jpg"
       ],
       "syncMode": "aucune",
-      "syncInfo": "Rien n'est synchronisé : les créatures, modèles et images générés restent sur le PC qui a la carte graphique."
+      "syncInfo": "Rien n'est synchronisé : les créatures, modèles et images générés restent sur le PC qui a la carte graphique.",
+      "notifications": [
+        {
+          "type": "invocation",
+          "name": "Créature invoquée",
+          "description": "Chaque créature finie par l'invocation en boucle, avec son image."
+        }
+      ]
     },
     {
       "id": "neodex.arene",
       "name": "NeoBestiary Arène",
       "repo": "NDesumeur/neodex-plugin-arene",
-      "version": "1.5.2",
+      "version": "1.5.3",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1297,7 +1305,7 @@
       "id": "neodex.enigmes",
       "name": "Valcendre",
       "repo": "NDesumeur/neodex-plugin-enigmes",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1339,7 +1347,7 @@
       "id": "neodex.flux",
       "name": "Flux",
       "repo": "NDesumeur/neodex-plugin-flux",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Internet",
       "system": false,
       "type": "app",
@@ -1348,14 +1356,22 @@
       "permissions": [
         "storage",
         "background",
-        "network"
+        "network",
+        "notifications"
       ],
       "description": "Tes flux RSS et tes chaînes YouTube dans l'ordre de parution, sans algorithme ; les nouveautés s'affichent sur l'accueil.",
       "screenshots": [
         "https://raw.githubusercontent.com/NDesumeur/neodex-plugin-flux/main/screenshots/1.jpg"
       ],
       "syncMode": "fusion",
-      "syncInfo": "Tes flux RSS et les articles lus."
+      "syncInfo": "Tes flux RSS et les articles lus.",
+      "notifications": [
+        {
+          "type": "nouveaux",
+          "name": "Nouveaux articles",
+          "description": "Une notification quand tes flux ont de nouveaux articles (avec l'image du premier)."
+        }
+      ]
     },
     {
       "id": "neodex.reseau",
@@ -1415,7 +1431,7 @@
       "id": "neodex.neonrush",
       "name": "Néon Rush",
       "repo": "NDesumeur/neodex-plugin-neonrush",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1466,7 +1482,7 @@
       "id": "neodex.lanterne",
       "name": "Lanterne",
       "repo": "NDesumeur/neodex-plugin-lanterne",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "category": "Jeux",
       "system": false,
       "type": "app",
@@ -1599,7 +1615,7 @@
       "id": "neodex.studio",
       "name": "Studio de plugins",
       "repo": "NDesumeur/neodex-plugin-studio",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "category": "Outils",
       "system": false,
       "type": "app",
